@@ -1,0 +1,93 @@
+#left-image {
+  height: 250px;
+  width: 250px;
+
+  float: left;
+
+  margin-right: 15px;
+
+}
+
+.right-image {
+  max-width:100%;
+  height: auto;
+  margin-bottom: 15px;
+  display: block;
+  margin-left:auto;
+  margin-right: auto;
+}
+
+h2{
+  font-family:"Goudy Bookletter 1911", sans-serif;
+  color:rgb(38, 17, 158);
+  margin-bottom: 20px;
+  margin-top: 10px;
+}
+
+h3{
+  font-family:"Goudy Bookletter 1911", sans-serif;
+  color:rgb(38, 17, 158);
+  margin-bottom: 20px;
+  margin-top:10px;
+}
+
+.navbar-brand{
+ background-color:rgb(38, 17, 158); 
+}
+
+h4{
+  margin-top: 20px;
+  font-family:"Goudy Bookletter 1911", sans-serif;
+  color:rgb(38, 17, 158);
+  text-align: center;
+}
+
+.comparison-image {
+  height: 500px;
+  width: 600px;
+  display: block;
+  margin-left:auto;
+  margin-right: auto;
+  margin-bottom: 15px;
+}
+
+.summary-image{
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin-left:auto;
+  margin-right: auto;
+  margin-bottom: 15px;
+}
+
+p{
+  margin-bottom: 30px;
+}
+
+.current-image{
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 15px;
+  display: block;
+  margin-left:auto;
+  margin-right: auto;
+  border: 3px solid rgb(38, 17, 158);
+  border-radius: 4px;
+  padding: 5px;
+}
+
+.other-image {
+  height: auto;
+  max-width: 100%;
+  margin-bottom: 15px;
+  display: block;
+  margin-left:auto;
+  margin-right: auto;
+}
+
+/* For styles that will ONLY be applied at screen sizes below 600 pixels  */
+@media (max-width: 800px) {
+  .navbar-brand {
+    background-color: rgb(221, 226, 214);
+  } 
+}

@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Analysis of Latitude</title>
+  
+  <!-- Bootstrap -->
+  
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+  
+  <!-- Style.css -->
+  <link href="style.css" rel="stylesheet">
+
+  <!-- JavaScript -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+<!-- Nav Bar -->
+
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="index.html">Latitude</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Plots
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="temp.html">Max Temperature</a></li>
+              <li><a class="dropdown-item" href="humid.html">Humidity</a></li>
+              <li><a class="dropdown-item" href="cloudy.html">Cloudiness</a></li>
+              <li><a class="dropdown-item" href="windy.html">Wind Speed</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="comparisons.html">Comparisons</a>
+          </li>
+          <li class="nav-item">
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+    <!-- Main image container  -->
+
+  <div class="container">
+
+    <div class ="row">
+
+      <div class = "col-md-8">
+
+        <h2>Max Temperature</h2>
+
+        <hr>
+ 
+        <a href="temp.html">
+          <img class="summary-image" src="Resources/images/Fig1.png" alt="">
+        </a>
+
+        <p>You can see from the chart above, the relationship between temperature and city distance from the equator.</p>
+      </div>
+
+      <div class = "col-md-4">
+
+        <h3>Data Visualizations</h3>
+
+        <hr>
+
+        <div class="row">
+
+          <div cLass="col-md-6">
+            <a href="temp.html">
+              <img class="current-image" src="Resources/images/Fig1.png" alt="">
+            </a>
+          </div>
+  
+          <div cLass="col-md-6">
+            <a href="humid.html">
+              <img class="other-image" src="Resources/images/Fig2.png" alt="">
+            </a>
+          </div>
+  
+        </div>
+  
+        <div class="row">
+  
+          <div cLass="col-md-6">
+            <a href="cloudy.html">
+              <img class="other-image" src="Resources/images/Fig3.png" alt="">
+            </a>
+          </div>
+  
+          <div cLass="col-md-6">
+            <a href="windy.html">
+              <img class="other-image" src="Resources/images/Fig4.png" alt="">
+            </a>
+          </div>
+  
+
+      </div>
+
+    </div>
+
+  </div>
+
+</body>
+
+
+</html>
